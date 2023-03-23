@@ -1,0 +1,26 @@
+{
+  "name": "hero-rider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.0",
+    "node": "^17.7.2",
+    "stripe": "^11.15.0"
+  },
+  "optionalDependencies": {
+    "utf-8-validate": "^5.0.9"
+  }
+}
